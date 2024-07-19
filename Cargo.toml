@@ -1,0 +1,8 @@
+[package]
+name = "Conways-Game-Of-Life"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nalgebra-glm = "0.3"
+minifb = "0.20"
