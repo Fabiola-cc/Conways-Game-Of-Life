@@ -9,6 +9,14 @@ pub struct Framebuffer {
 }
 
 impl Framebuffer {
+    pub fn width(&self) -> usize {
+        self.width
+    }
+
+    pub fn height(&self) -> usize {
+        self.height
+    }
+    
     pub fn new(width: usize, height: usize) -> Framebuffer {
         let size = width * height * 3;
         let data = vec![0; size];
